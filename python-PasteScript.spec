@@ -6,7 +6,7 @@ Group:		Development/Languages/Python
 License:	X11/MIT
 Source0:	http://cheeseshop.python.org/packages/source/P/PasteScript/PasteScript-%{version}.tar.gz
 # Source0-md5:	a84c08700c42a337d665b334d96ac59f
-URL:		http://kid.lesscode.org/
+URL:		http://pythonpaste.org/script/
 BuildRequires:	python-devel
 %pyrequires_eq  python-modules
 BuildArch:	noarch
