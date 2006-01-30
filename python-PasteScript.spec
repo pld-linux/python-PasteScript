@@ -1,4 +1,5 @@
-Summary:	This is a pluggable command-line tool
+Summary:	A pluggable command-line tool
+Summary(pl):	Narzêdzie linii poleceñ z obs³ug± wtyczek
 Name:		python-PasteScript
 Version:	0.4.1
 Release:	1
@@ -8,17 +9,27 @@ Source0:	http://cheeseshop.python.org/packages/source/P/PasteScript/PasteScript-
 # Source0-md5:	a84c08700c42a337d665b334d96ac59f
 URL:		http://pythonpaste.org/script/
 BuildRequires:	python-devel
-%pyrequires_eq  python-modules
+%pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is a pluggable command-line tool. It includes some built-in features:
+This is a pluggable command-line tool. It includes some built-in
+features:
 - Create file layouts for packages. For instance:
    $ paste create  --template=basic_package MyPackage 
   will create a setuptools-ready file layout.
-- Serving up web applications, with configuration based on paste.deploy.
+- Serving up web applications, with configuration based on
+  paste.deploy.
 
+%description -l pl
+Ten pakiet zawiera narzêdzie linii poleceñ z obs³ug± wtyczek. Niektóre
+mo¿liwo¶ci ma wbudowane:
+- tworzenie plików dla pakietów, na przyk³ad:
+   $ paste create  --template=basic_package MyPackage 
+  utworzy plik dla setuptools.
+- mo¿liwo¶æ u¿ycia w aplikacjach WWW z konfiguracj± opart± na
+  paste.deploy.
 
 %prep
 %setup -q -n PasteScript-%{version}
