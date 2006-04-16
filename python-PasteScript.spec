@@ -8,10 +8,10 @@ License:	X11/MIT
 Source0:	http://cheeseshop.python.org/packages/source/P/PasteScript/PasteScript-%{version}.tar.gz
 # Source0-md5:	403b0c354e72fc86e284f8ca4402a3b4
 URL:		http://pythonpaste.org/script/
-Requires:	python-cheetah
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools >= 0.6-0.a9.1
 %pyrequires_eq	python-modules
+Requires:	python-cheetah
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
