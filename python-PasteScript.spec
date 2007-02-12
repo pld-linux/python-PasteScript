@@ -1,5 +1,5 @@
 Summary:	A pluggable command-line tool
-Summary(pl):	Narzêdzie linii poleceñ z obs³ug± wtyczek
+Summary(pl.UTF-8):   NarzÄ™dzie linii poleceÅ„ z obsÅ‚ugÄ… wtyczek
 Name:		python-PasteScript
 Version:	1.1
 Release:	1
@@ -24,13 +24,13 @@ features:
 - Serving up web applications, with configuration based on
   paste.deploy.
 
-%description -l pl
-Ten pakiet zawiera narzêdzie linii poleceñ z obs³ug± wtyczek. Niektóre
-mo¿liwo¶ci ma wbudowane:
-- tworzenie plików dla pakietów, na przyk³ad:
+%description -l pl.UTF-8
+Ten pakiet zawiera narzÄ™dzie linii poleceÅ„ z obsÅ‚ugÄ… wtyczek. NiektÃ³re
+moÅ¼liwoÅ›ci ma wbudowane:
+- tworzenie plikÃ³w dla pakietÃ³w, na przykÅ‚ad:
    $ paste create  --template=basic_package MyPackage 
   utworzy plik dla setuptools.
-- mo¿liwo¶æ u¿ycia w aplikacjach WWW z konfiguracj± opart± na
+- moÅ¼liwoÅ›Ä‡ uÅ¼ycia w aplikacjach WWW z konfiguracjÄ… opartÄ… na
   paste.deploy.
 
 %prep
