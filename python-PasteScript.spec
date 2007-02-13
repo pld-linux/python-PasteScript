@@ -1,5 +1,5 @@
 Summary:	A pluggable command-line tool
-Summary(pl.UTF-8):   Narzędzie linii poleceń z obsługą wtyczek
+Summary(pl.UTF-8):	Narzędzie linii poleceń z obsługą wtyczek
 Name:		python-PasteScript
 Version:	1.1
 Release:	1
