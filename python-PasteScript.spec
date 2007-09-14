@@ -11,7 +11,13 @@ URL:		http://pythonpaste.org/script/
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools >= 0.6-0.a9.1
 %pyrequires_eq	python-modules
+Requires:	python-Beaker >= 0.7.5
 Requires:	python-cheetah
+Requires:	python-FormEncode >= 0.7.0
+Requires:	python-decorator >= 2.1.0
+Requires:	python-Mako >= 0.1.8
+Requires:	python-nose >= 0.9.3
+Requires:	python-Routes >= 1.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
