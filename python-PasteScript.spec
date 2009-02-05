@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Narzędzie linii poleceń z obsługą wtyczek
 Name:		python-PasteScript
 Version:	1.3.6
 Release:	0.1
-Group:		Development/Languages/Python
+Group:		Libraries/Python
 License:	X11/MIT
 Source0:	http://cheeseshop.python.org/packages/source/P/PasteScript/PasteScript-%{version}.tar.gz
 # Source0-md5:	6a79da14870f0bbe9c1f7d4d12912437
