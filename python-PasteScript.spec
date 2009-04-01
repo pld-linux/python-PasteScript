@@ -2,13 +2,15 @@ Summary:	A pluggable command-line tool
 Summary(pl.UTF-8):	Narzędzie linii poleceń z obsługą wtyczek
 Name:		python-PasteScript
 Version:	1.7.3
-Release:	0.2
+Release:	0.3
 Group:		Libraries/Python
 License:	X11/MIT
 Source0:	http://cheeseshop.python.org/packages/source/P/PasteScript/PasteScript-%{version}.tar.gz
 # Source0-md5:	9101a3a23809d3413b39ba8b75dd0bce
 URL:		http://pythonpaste.org/script/
 BuildRequires:	python-devel
+BuildRequires:	python-Paste >= 1.3
+BuildRequires:	python-PasteDeploy >= 1.3.3
 BuildRequires:	python-setuptools >= 0.6-0.a9.1
 %pyrequires_eq	python-modules
 Patch0:		%{name}-template_dir_assemble.patch
