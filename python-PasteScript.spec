@@ -8,6 +8,7 @@ Group:		Libraries/Python
 Source0:	http://cheeseshop.python.org/packages/source/P/PasteScript/PasteScript-%{version}.tar.gz
 # Source0-md5:	4c72d78dcb6bb993f30536842c16af4d
 URL:		http://pythonpaste.org/script/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-Paste >= 1.3
 BuildRequires:	python-PasteDeploy >= 1.3.3
 BuildRequires:	python-devel
