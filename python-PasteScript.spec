@@ -27,6 +27,9 @@ BuildRequires:	python-six
 %endif
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
+%if %{with doc}
+BuildRequires:	sphinx-pdg-2
+%endif
 Requires:	python-modules >= 1:2.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
